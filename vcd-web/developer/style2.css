@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-size:70px;
+  color:blue;
+}
+
+p{
+  font-size:55px;
+  color:blue;
+}
+
+body{
+  background-image: url(https://wallpaperxyz.com/wp-content/uploads/Gif-Animated-Wallpaper-Background-Full-HD-Free-Download-for-PC-Macbook-261121-Wallpaperxyz.com-36.gif);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+ul{
+  position:absolute;
+  right:995px;
+}
+
+a:link, a:visited {
+    background-color: pink;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: powderblue;
+  }

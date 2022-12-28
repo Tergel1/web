@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background:url(../img/background-phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+/*Header*/
+.header{
+    background: #944819;
+       padding: 3px 9px; 
+       overflow: hidden;
+    }
+    .header ul{
+        list-style: none;
+        float:left;
+    }
+    .header li{
+        float: right;
+    }
+    .header a{
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px;
+    }
+    .header a:hover{
+        color: tan;
+    }
+    .header p{
+        display: block;
+        color: white;
+        padding: 8px;
+        float: right;
+    }   
+/* Navbar */
+.navbar {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+    .logo{
+        height: 100px;
+        position : relative;
+        top: -2px;
+        left: 25px;
+        cursor:pointer;
+    }
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.navbar a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+@media (max-width: 952px) {
+    img.logo {
+        font-size: 30px;
+        padding-left: -10px;
+    }
+    .navbar ul li a {
+        display: 16px;
+    }
+}
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 120px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .navbar ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        color: #0082e6;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
+/* Section */
+.gol-heseg h1{
+    font-size: 60px;
+    color: gray;
+    text-align: center;
+    margin-top: 16%;
+}
+.gol-heseg span{
+    color: #944819;
+}
+body {
+    background-image: url'pisda ;
+}
